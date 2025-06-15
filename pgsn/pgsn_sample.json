@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "G1",
+      "type": "Goal",
+      "content": "システムは安全であるべき"
+    },
+    {
+      "id": "S1",
+      "type": "Strategy",
+      "content": "安全設計ガイドに従う"
+    },
+    {
+      "id": "A1",
+      "type": "Argument",
+      "content": "チェックリストで確認した"
+    }
+  ],
+  "links": [
+    {
+      "from": "G1",
+      "to": "S1"
+    },
+    {
+      "from": "S1",
+      "to": "A1"
+    }
+  ]
+}
